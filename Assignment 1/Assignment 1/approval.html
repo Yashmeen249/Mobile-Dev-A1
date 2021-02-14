@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/jquery.js"></script>
+
+	<script src="javascript/approval.js"></script>
+    <link href="styles/approval.css" rel="stylesheet">
+    <title>Yashmeen Sharma</title>
+</head>
+<body>
+    <header id = "header"></header><br />
+    <div id="gArea">
+        <div id = "information">
+            <label id = "in"></label><br />
+            <label id = "brrwAmt"></label><br />
+            <label id = "pytrms"></label><br />
+            <label id = "intrst"></label><br />
+            <label id = "pymnt"></label><br />
+            <label id = "prft"></label><br />
+            <label for = "decision"></label>
+            <select name="decision" id="decision">
+                <option value="accept">Accept</option>
+                <option value="reject">Reject</option>
+                <option value="needMoreInfo">Need more information</option>
+            </select><br /><br />
+            <button onclick = "toLocalStorage()" type="button" id="button">Click to Submit</button>   
+        </div>
+        <div id = "pic">
+            <h3>Sales Representative: </h3>
+            <img src="images/yash.jpeg" height="200" width="200">
+        </div>
+        <br>
+    </div>
+    <footer id = "footer"></footer>
+</body>
+</html>
